@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2e80ce;
+    --secondary-color: #10375c;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Sora, "sans-serif";
+}
+
+/* Common */
+.main-content {
+    width: 1170px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    min-width: 20.5rem;
+    padding: 1.8rem 0;
+    border-radius: 999px;
+    background: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/* Header */
+.header {
+    background: var(--secondary-color);
+    padding-top: 1.4rem;
+}
+
+.header__body {
+    display: flex;
+    align-items: center;
+    padding: 1.6rem 0;
+}
+
+.header__nav {
+    margin-left: auto;
+}
+
+.header__nav__list {
+    position: relative;
+    display: flex;
+    gap: 4.2rem;
+}
+
+.header__nav__list__item a,
+.sign__login {
+    color: #c9d2da;
+    font-size: 1.6rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav__list__item:first-child a::before {
+    position: absolute;
+    content: "";
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: #fff;
+    left: -0.8rem;
+}
+
+.header__nav__list a:hover {
+    color: #fff;
+    font-weight: 400;
+}
+
+.header .sign {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.sign__login:hover {
+    color: #fff;
+    font-weight: 400;
+}
+
+.sign__btn {
+    min-width: 10.4rem;
+    padding: 1.3rem 0;
+    margin-left: 2.8rem;
+}
