@@ -38,16 +38,19 @@ a {
     font-size: 1.8rem;
 }
 
+.btn:hover {
+    opacity: 0.9;
+}
+
 /* Header */
 .header {
     background: var(--secondary-color);
-    padding-top: 1.4rem;
+    padding-top: 3rem;
 }
 
-.header__body {
+.header-top {
     display: flex;
     align-items: center;
-    padding: 1.6rem 0;
 }
 
 .header__nav {
@@ -99,4 +102,73 @@ a {
     min-width: 10.4rem;
     padding: 1.3rem 0;
     margin-left: 2.8rem;
+    font-size: 1.6rem;
+}
+
+/* Hero */
+.hero {
+    margin-top: 7.6rem;
+    padding-bottom: 11rem;
+    display: flex;
+    align-items: center;
+}
+
+.hero__content {
+    width: 44%;
+}
+
+.hero__media {
+    flex: 1;
+}
+
+.hero__heading {
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1.14;
+    letter-spacing: -1.4px;
+}
+
+.hero__desc {
+    margin-top: 2.2rem;
+    color: #c9d2da;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+.hero__row {
+    margin-top: 2.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.hero__phone {
+    margin-left: 3.8rem;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 1.67;
+}
+
+.hero__images {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero__img {
+    width: 33rem;
+    height: 54rem;
+    border-radius: 0.6rem;
+    object-fit: cover;
+}
+
+.hero__img:first-child {
+    position: relative;
+    margin-right: -0.6rem;
+}
+
+.hero__img:last-child {
+    width: 21rem;
+    height: 41rem;
 }
