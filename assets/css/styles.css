@@ -281,3 +281,65 @@ a {
     font-weight: 300;
     line-height: 1.75;
 }
+
+/* How it works */
+.howitworks {
+    margin-top: 17rem;
+    padding: 10rem 0;
+    background: #f6fbff;
+}
+
+.howitworks__desc {
+    margin-top: 1.8rem;
+    width: 46.8rem;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+.howitworks__lists {
+    margin-top: 8.6rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.howitworks__item {
+    padding: 4.3rem 4.2rem;
+    border: 1.6rem solid #eaf6ff;
+    border-radius: 0.4rem;
+    background: #fff;
+    transition: 0.25s;
+}
+
+.howitworks__item:hover {
+    margin: -1.6rem 0 1.6rem;
+    border-color: var(--primary-color);
+}
+
+.howitworks__item .title {
+    margin-top: 1.8rem;
+    color: var(--secondary-color);
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+}
+
+.howitworks__item .desc,
+.howitworks__item span {
+    margin-top: 2.8rem;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    display: inline-block;
+}
+
+.howitworks__item span {
+    margin-top: 1.8rem;
+}
+
+.howitworks__item:hover span {
+    color: var(--primary-color);
+    font-weight: 400;
+}
