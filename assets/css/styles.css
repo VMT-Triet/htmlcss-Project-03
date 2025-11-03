@@ -29,6 +29,7 @@ a {
 }
 
 .btn {
+    display: inline-block;
     min-width: 20.5rem;
     padding: 1.8rem 0;
     border-radius: 999px;
@@ -40,6 +41,14 @@ a {
 
 .btn:hover {
     opacity: 0.9;
+}
+
+.heading2 {
+    color: var(--secondary-color);
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
 }
 
 /* Header */
@@ -171,4 +180,104 @@ a {
 .hero__img:last-child {
     width: 21rem;
     height: 41rem;
+}
+
+/* Services */
+.services {
+    padding-top: 1rem;
+    margin-top: 16rem;
+}
+
+.services__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__desc {
+    margin-top: 1.8rem;
+    width: 46.8rem;
+    color: #575f66;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+.services__content {
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .services__media {
+    width: 48%;
+    flex-shrink: 0;
+} */
+
+.services__img {
+    width: 57rem;
+    height: 57rem;
+    border-radius: 1.2rem;
+    object-fit: cover;
+}
+
+.services__list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5.5rem;
+}
+
+.services-item {
+    display: flex;
+    width: 47rem;
+    padding: 21px 22px 20px;
+    background: #fff;
+    transition: 0.25s;
+    border-radius: 10px;
+}
+
+.services-item:hover {
+    position: relative;
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+}
+
+.services-item__icon {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    color: var(--secondary-color);
+    background: #eff6fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
+    transition: 0.25s;
+}
+
+.services-item:hover .services-item__icon {
+    color: #fff;
+    background: #2e80ce;
+}
+
+.services-item__lable {
+    margin-left: 1.9rem;
+}
+
+.services-item__heading {
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.services-item__desc {
+    margin-top: 0.8rem;
+    width: 35.1rem;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
 }
