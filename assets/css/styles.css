@@ -629,3 +629,42 @@ a {
 .blog-item__more:hover {
     color: var(--primary-color);
 }
+
+/* Action */
+.action {
+    margin-top: 17rem;
+    padding: 10rem 0;
+    background: #f6fbff;
+}
+
+.action-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action__heading2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.action__heading2::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 136px;
+    height: 2px;
+    background: var(--primary-color);
+    bottom: -18px;
+}
+
+.action__desc {
+    margin-top: 3.8rem;
+    width: 617px;
+    text-align: center;
+}
+
+.action-body .btn {
+    margin-top: 3.8rem;
+}
