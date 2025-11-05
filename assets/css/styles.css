@@ -5,6 +5,7 @@
 :root {
     --primary-color: #2e80ce;
     --secondary-color: #10375c;
+    --desc-color: #575f66;
 }
 
 html {
@@ -49,6 +50,13 @@ a {
     font-weight: 600;
     line-height: 1.2;
     letter-spacing: -1px;
+}
+
+.section-desc {
+    color: var(--desc-color);
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
 }
 
 /* Header */
@@ -141,9 +149,6 @@ a {
 .hero__desc {
     margin-top: 2.2rem;
     color: #c9d2da;
-    font-size: 1.8rem;
-    font-weight: 300;
-    line-height: 1.67;
 }
 
 .hero__row {
@@ -199,9 +204,6 @@ a {
     width: 46.8rem;
     color: #575f66;
     text-align: center;
-    font-size: 1.8rem;
-    font-weight: 300;
-    line-height: 1.67;
 }
 
 .services__content {
@@ -293,9 +295,6 @@ a {
     margin-top: 1.8rem;
     width: 46.8rem;
     color: #575f66;
-    font-size: 1.8rem;
-    font-weight: 300;
-    line-height: 1.67;
 }
 
 .howitworks__lists {
@@ -391,9 +390,6 @@ a {
     margin-top: 1.8rem;
     width: 46.8rem;
     color: #575f66;
-    font-size: 1.8rem;
-    font-weight: 300;
-    line-height: 1.67;
 }
 
 .about__content .btn {
@@ -482,4 +478,51 @@ a {
 .control__btn:hover {
     color: #fff;
     background: var(--primary-color);
+}
+
+/* Intall */
+.intall {
+    margin-top: 26.6rem;
+    /* padding-top: 9.6rem; */
+}
+
+.intall-phone {
+    background: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7rem;
+    border-radius: 4px;
+}
+
+.intall__img {
+    display: block;
+    width: 28.4rem;
+    height: 52.2rem;
+    margin-top: -9.5rem;
+    object-fit: cover;
+}
+
+.intall__content {
+    max-width: 58.6rem;
+}
+
+.intall__heading2 {
+    width: 48.9rem;
+    color: #fff;
+}
+
+.intall__desc {
+    margin-top: 1.8rem;
+    color: #fff;
+}
+
+.action {
+    display: flex;
+    column-gap: 2.8rem;
+}
+
+.intall__action {
+    margin-top: 3.8rem;
+    align-items: center;
 }
