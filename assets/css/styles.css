@@ -631,25 +631,25 @@ a {
 }
 
 /* Action */
-.action {
+.action1 {
     margin-top: 17rem;
     padding: 10rem 0;
     background: #f6fbff;
 }
 
-.action-body {
+.action1-body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.action__heading2 {
+.action1__heading2 {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-.action__heading2::after {
+.action1__heading2::after {
     position: absolute;
     content: "";
     display: inline-block;
@@ -659,12 +659,12 @@ a {
     bottom: -18px;
 }
 
-.action__desc {
+.action1__desc {
     margin-top: 3.8rem;
     width: 617px;
     text-align: center;
 }
 
-.action-body .btn {
+.action1-body .btn {
     margin-top: 3.8rem;
 }
